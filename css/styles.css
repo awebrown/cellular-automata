@@ -1,0 +1,28 @@
+/*div.container {
+	margin: auto;
+	width: 50%;
+}*/
+
+div {
+	height: 5px;
+}
+
+.row div {
+	height: 5px;
+	width: 5px;
+	margin: 0;
+	display: inline-block;;
+}
+
+.row div.active {
+	background: black;
+}
+
+.row div.inactive {
+	/*background: #99ccff;*/
+	background-color: white;
+}
+
+body {
+	margin: 0;
+}
